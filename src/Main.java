@@ -1,16 +1,16 @@
 import java.util.Scanner;
 public class Main {
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Total Bill: ");
+        System.out.print("Total Bill: ");
         double bill = s.nextDouble();
-        System.out.println("Tip Percentage: ");
+        System.out.print("Tip Percentage (w/o percent): ");
         double tipPercent = s.nextDouble();
-        System.out.println("Number of People: ");
+        System.out.print("Number of People: ");
         int numPpl = s.nextInt();
 
-        
+
     }
 
 }
